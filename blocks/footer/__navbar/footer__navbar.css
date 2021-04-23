@@ -14,12 +14,19 @@
 
     }
   }
-  
+
+  @media screen and (max-width: 640px){
+    .footer__navbar {
+        text-align: left;
+    }
+}  
+
 @media screen and (max-width: 640px){
     .footer__navbar:first-child {
         margin-left: 42px;
         margin-right: 104px;
         margin-bottom: 30px;
+        text-align: left;
     }
 }
 
