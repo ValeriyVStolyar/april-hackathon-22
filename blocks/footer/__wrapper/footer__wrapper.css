@@ -4,3 +4,28 @@
     max-width: 1110px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1140px){
+    .footer__wrapper {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .footer__wrapper {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .footer__wrapper {
+        /* padding-left: 42px; */
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer__wrapper {
+        min-height: 360px;
+    }
+  }

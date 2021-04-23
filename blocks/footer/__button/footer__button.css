@@ -15,3 +15,28 @@
     cursor: pointer;
     opacity: .6;
 }
+
+@media screen and (max-width: 1140px){
+    .footer__button {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .footer__button {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .footer__button {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer__button {
+        bottom: 58px;
+        right: 32px;
+    }
+  }

@@ -26,5 +26,6 @@
 @media screen and (max-width: 375px){
     .portfolio__wrapper {
         max-width: calc(100% - 34px*2);
+        
     }
   }

@@ -1,8 +1,14 @@
 .footer__navbar-item{
+    text-decoration: none;
+    color: #333333;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.footer__navbar-item:first-child {
+    margin-top: 0;
 }
 
 @media screen and (max-width: 1140px){
