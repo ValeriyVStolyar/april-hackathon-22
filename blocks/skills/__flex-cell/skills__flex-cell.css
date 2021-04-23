@@ -26,11 +26,16 @@
 
 @media screen and (max-width: 375px){
     .skills__flex-cell {
+        white-space: nowrap;
         padding: 0;
+        max-width: 85px;
+        width: 100%;
   }
 
     .skills__flex-cell:nth-child(2n) {
         padding-left: 16px;
-        max-width: 82px;
+        max-width: 211px;
+        width: 100%;
+        
     }
 }
