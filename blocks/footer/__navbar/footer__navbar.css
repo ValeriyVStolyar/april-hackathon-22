@@ -1,6 +1,7 @@
 .footer__navbar{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 @media screen and (max-width: 1140px){

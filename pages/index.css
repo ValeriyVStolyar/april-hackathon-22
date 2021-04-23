@@ -46,4 +46,5 @@
 @import url(../blocks/footer/__flexbox/footer__flexbox.css);
 @import url(../blocks/footer/__navbar/footer__navbar.css);
 @import url(../blocks/footer/__navbar-item/footer__navbar-item.css);
+@import url(../blocks/footer/__navbar-phone/footer__navbar-phone.css);
 @import url(../blocks/footer/__button/footer__button.css);
