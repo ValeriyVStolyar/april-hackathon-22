@@ -1,0 +1,28 @@
+.about__wrapper{
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+@media screen and (max-width: 1140px){
+    .about__wrapper {
+        max-width: calc(100% - 120px*2);
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .about__wrapper {
+        max-width: calc(100% - 80px*2);
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .about__wrapper {
+        max-width: calc(100% - 45px*2);
+    }
+}
+
+@media screen and (max-width: 375px){
+    .about__wrapper {
+        max-width: calc(100% - 34px*2);
+    }
+  }

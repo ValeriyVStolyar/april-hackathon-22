@@ -1,0 +1,28 @@
+.skills__wrapper{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__wrapper {
+        max-width: calc(100% - 120px*2);
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__wrapper {
+        max-width: calc(100% - 80px*2);
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__wrapper {
+        max-width: calc(100% - 45px*2);
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__wrapper {
+        max-width: calc(100% - 34px*2);
+    }
+}

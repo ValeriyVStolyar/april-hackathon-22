@@ -1,0 +1,31 @@
+.about__header{
+    margin-bottom: 76px;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1140px){
+    .about__header {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .about__header {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .about__header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .about__header {
+
+    }
+  }

@@ -1,0 +1,31 @@
+.skills__header{
+    margin-bottom: 86px;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__header {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__header {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__header {
+
+    }
+  }

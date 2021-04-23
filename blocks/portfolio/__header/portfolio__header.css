@@ -1,0 +1,31 @@
+.portfolio__header{
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1140px){
+    .portfolio__header {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .portfolio__header {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .portfolio__header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .portfolio__header {
+
+    }
+  }

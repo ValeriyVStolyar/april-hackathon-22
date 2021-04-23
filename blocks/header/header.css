@@ -1,0 +1,11 @@
+.header{
+    max-width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url("../../images/header/header-bg-overlay.png"), url("../../images/header/header-bg.png");
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}

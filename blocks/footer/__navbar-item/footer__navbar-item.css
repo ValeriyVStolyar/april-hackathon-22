@@ -1,0 +1,32 @@
+.footer__navbar-item{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 14px;
+}
+
+@media screen and (max-width: 1140px){
+    .footer__navbar-item {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .footer__navbar-item {
+        font-size: 16px;
+        line-height: 20px;
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .footer__navbar-item {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer__navbar-item {
+        font-size: 14px;
+        line-height: 17px;
+    }
+  }
