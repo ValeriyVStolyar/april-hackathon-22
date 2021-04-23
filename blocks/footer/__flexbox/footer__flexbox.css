@@ -1,0 +1,32 @@
+.footer__flexbox{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1140px){
+    .footer__flexbox {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .footer__flexbox {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .footer__flexbox {
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .footer__flexbox {
+
+    }
+  }

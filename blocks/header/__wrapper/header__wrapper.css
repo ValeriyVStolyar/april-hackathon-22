@@ -1,0 +1,32 @@
+.header__wrapper{
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-top: 93px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media screen and (max-width: 1140px){
+    .header__wrapper {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .header__wrapper {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .header__wrapper {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header__wrapper {
+
+    }
+  }
