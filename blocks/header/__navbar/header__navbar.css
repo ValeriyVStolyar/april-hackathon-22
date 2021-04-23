@@ -1,0 +1,7 @@
+.header__navbar{
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    align-self: flex-end;
+    position: absolute;
+}

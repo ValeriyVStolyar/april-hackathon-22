@@ -1,0 +1,8 @@
+.header__wrapper{
+    margin: 0 auto;
+    max-width: 1110px;
+    padding-top: 93px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

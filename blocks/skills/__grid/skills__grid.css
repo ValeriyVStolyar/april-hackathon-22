@@ -1,0 +1,8 @@
+.skills__grid{
+    display: grid;
+    height: 340px;
+    grid-template-columns: 31.5% 15% 40%;
+    grid-template-rows: fit-content(25px) 6fr;
+    column-gap: 78px;
+    row-gap: 65px;
+}

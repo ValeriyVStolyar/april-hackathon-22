@@ -2,4 +2,48 @@
 
 @import url(../fonts/fonts.css);
 
+@import url(../blocks/page/page.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__navbar-item/header__navbar-item.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__description/header__description.css);
+@import url(../blocks/header/__link/header__link.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__wrapper/about__wrapper.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__header/about__header.css);
+
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__wrapper/skills__wrapper.css);
+@import url(../blocks/skills/__header/skills__header.css);
+@import url(../blocks/skills/__grid/skills__grid.css);
+@import url(../blocks/skills/__avatar/skills__avatar.css);
+@import url(../blocks/skills/__skill-type/skills__skill-type.css);
+@import url(../blocks/skills/__skill-description/skills__skill-description.css);
+@import url(../blocks/skills/__progress-bar/skills__progress-bar.css);
+@import url(../blocks/skills/__grid/_block/skills__grid_block.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__wrapper/portfolio__wrapper.css);
+@import url(../blocks/portfolio/__header/portfolio__header.css);
+@import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
+@import url(../blocks/portfolio/__paragraph/portfolio__paragraph.css);
+@import url(../blocks/portfolio/__grid/portfolio__grid.css);
+@import url(../blocks/portfolio/__grid-item/portfolio__grid-item.css);
+@import url(../blocks/portfolio/__buttons/portfolio__buttons.css);
+@import url(../blocks/portfolio/__button/_left/portfolio__button_left.css);
+@import url(../blocks/portfolio/__button/_right/portfolio__button_right.css);
+@import url(../blocks/portfolio/__button/portfolio__button.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__header/footer__header.css);
+@import url(../blocks/footer/__flexbox/footer__flexbox.css);
+@import url(../blocks/footer/__navbar/footer__navbar.css);
+@import url(../blocks/footer/__navbar-item/footer__navbar-item.css);
+@import url(../blocks/footer/__button/footer__button.css);

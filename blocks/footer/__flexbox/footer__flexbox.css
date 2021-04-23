@@ -1,0 +1,6 @@
+.footer__flexbox{
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    justify-content: space-between;
+}
