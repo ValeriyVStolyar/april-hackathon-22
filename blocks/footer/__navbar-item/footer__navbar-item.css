@@ -5,6 +5,12 @@
     font-weight: 400;
     line-height: 22px;
     margin-top: 14px;
+    transition: opacity 2s ease-out .02s;
+}
+
+.footer__navbar-item:hover {
+    cursor: pointer;
+    opacity: .6;
 }
 
 .footer__navbar-item:first-child {
