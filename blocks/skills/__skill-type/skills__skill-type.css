@@ -2,4 +2,50 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.skills__skill-type:first-child{
+    padding-bottom: 65px;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__skill-type {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__skill-type {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__skill-type {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__skill-type {
+        max-width: 83px;
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 25px;
+  }
+
+    .skills__skill-type:nth-child(2n){
+        padding-bottom: 9px;
+    }
+
+    .skills__skill-type:nth-child(2n+1){
+        padding-bottom: 18px;
+    }
+
+    .skills__skill-type:last-child{
+        padding-bottom: 0;
+    }
 }

@@ -1,0 +1,30 @@
+.skills__flex-box {
+    display: none;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__flex-box {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__flex-box {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__flex-box {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__flex-box {
+        display: flex;
+        padding-top: 26px;
+        width: 100%;
+        justify-content:flex-start;
+  }
+}

@@ -1,30 +1,27 @@
-.skills{
-    margin: 0 auto;
-    padding: 93px 0 125px;
-    width: 100%;
-    background-color: #FFFAF2;
+.skills__flex {
+    display: flex;
 }
 
 @media screen and (max-width: 1140px){
-    .skills {
+    .skills__flex {
         
     }
   }
   
 @media screen and (max-width: 984px){
-    .skills {
+    .skills__flex {
 
     }
   }
   
 @media screen and (max-width: 640px){
-    .skills {
+    .skills__flex {
 
     }
 }
 
 @media screen and (max-width: 375px){
-    .skills {
-        padding: 25px 0;
+    .skills__flex {
+        flex-direction: column;
   }
 }

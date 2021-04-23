@@ -2,4 +2,47 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.skills__skill-description:first-child{
+    padding-bottom: 65px;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__skill-description {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__skill-description {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__skill-description {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__skill-description {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 25px;
+        padding-bottom: 20px;
+        max-width: 70%;
+        width: 100%;
+  }
+
+    .skills__skill-description:first-child{
+        padding-bottom: 18px;
+    }
+
+    .skills__skill-description:last-child{
+        padding-bottom: 0;
+    }
 }

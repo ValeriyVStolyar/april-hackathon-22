@@ -25,9 +25,13 @@
 @import url(../blocks/skills/__grid/skills__grid.css);
 @import url(../blocks/skills/__avatar/skills__avatar.css);
 @import url(../blocks/skills/__skill-type/skills__skill-type.css);
+@import url(../blocks/skills/__skill-type/_lead/skills__skill-type_lead.css);
 @import url(../blocks/skills/__skill-description/skills__skill-description.css);
 @import url(../blocks/skills/__progress-bar/skills__progress-bar.css);
 @import url(../blocks/skills/__grid/_block/skills__grid_block.css);
+@import url(../blocks/skills/__flex-box/skills__flex-box.css);
+@import url(../blocks/skills/__flex/skills__flex.css);
+@import url(../blocks/skills/__flex-cell/skills__flex-cell.css);
 
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/portfolio/__wrapper/portfolio__wrapper.css);

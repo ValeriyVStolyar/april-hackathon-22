@@ -1,0 +1,36 @@
+.skills__flex-cell {
+    padding-left: 66px;
+}
+
+.skills__flex-cell:nth-child(2n) {
+    padding-left: 125px;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__flex-cell {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__flex-cell {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__flex-cell {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__flex-cell {
+        padding: 0;
+  }
+
+    .skills__flex-cell:nth-child(2n) {
+        padding-left: 16px;
+        max-width: 82px;
+    }
+}

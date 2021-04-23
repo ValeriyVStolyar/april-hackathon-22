@@ -1,4 +1,34 @@
 .skills__avatar{
+    max-width: 350px;
+    min-height: 340px;
+    width: 100%;
+    height: 100%;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+@media screen and (max-width: 1140px){
+    .skills__avatar {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .skills__avatar {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .skills__avatar {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .skills__avatar {
+        max-width: 224px;
+        min-height: 218px;
+        align-self: center;
+  }
 }
