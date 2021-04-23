@@ -33,6 +33,8 @@
 @import url(../blocks/portfolio/__wrapper/portfolio__wrapper.css);
 @import url(../blocks/portfolio/__header/portfolio__header.css);
 @import url(../blocks/portfolio/__subtitle/portfolio__subtitle.css);
+@import url(../blocks/portfolio/__flex-container/portfolio__flex-container.css);
+@import url(../blocks/portfolio/__content/portfolio__content.css);
 @import url(../blocks/portfolio/__paragraph/portfolio__paragraph.css);
 @import url(../blocks/portfolio/__grid/portfolio__grid.css);
 @import url(../blocks/portfolio/__grid-item/portfolio__grid-item.css);

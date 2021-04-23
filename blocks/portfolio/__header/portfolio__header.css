@@ -1,9 +1,10 @@
 .portfolio__header{
-    margin-bottom: 80px;
+    margin: 0;
     font-size: 24px;
     line-height: 29px;
     font-style: normal;
     font-weight: 700;
+    padding-bottom: 86px;
 }
 
 @media screen and (max-width: 1140px){
@@ -26,6 +27,10 @@
 
 @media screen and (max-width: 375px){
     .portfolio__header {
-
+      padding-bottom: 19px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
     }
   }

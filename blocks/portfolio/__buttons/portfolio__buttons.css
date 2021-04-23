@@ -1,5 +1,28 @@
 .portfolio__buttons{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    position: relative;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1140px){
+    .portfolio__buttons {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .portfolio__buttons {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .portfolio__buttons {
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    .portfolio__buttons {
+      display: none;
+  }
 }

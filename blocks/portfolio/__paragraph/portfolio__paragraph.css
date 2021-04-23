@@ -4,3 +4,32 @@
     line-height: 30px;
     max-width: 350px;
 }
+
+@media screen and (max-width: 1140px){
+    .portfolio__paragraph {
+        
+    }
+  }
+  
+@media screen and (max-width: 984px){
+    .portfolio__paragraph {
+
+    }
+  }
+  
+@media screen and (max-width: 640px){
+    .portfolio__paragraph {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .portfolio__paragraph {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        padding-bottom: 28px;
+  }
+}
