@@ -1,4 +1,23 @@
 .skills__avatar{
+    width: 100%;
+    object-fit: cover;
     grid-row-start: 1;
     grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+@media screen and (max-width: 1060px){
+    .skills__avatar {
+        width: 50%;
+        justify-self: center;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media screen and (max-width: 768px){
+    .skills__avatar {
+        width: 70%;
+    }
 }

@@ -11,21 +11,3 @@
         margin-top: 50px;
     }
   }
-  
-@media screen and (max-width: 984px){
-    .header__logo {
-
-    }
-  }
-  
-@media screen and (max-width: 640px){
-    .header__logo {
-
-    }
-}
-
-@media screen and (max-width: 375px){
-    .header__logo {
-
-    }
-  }

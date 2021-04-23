@@ -7,12 +7,12 @@
     background-image: url("../../../images/header/header-burger-menu.png");
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0;
+    visibility: hidden;
     position: absolute;
     left: 0;
 }
 @media screen and (max-width: 768px){
     .header__burger {
-        opacity: 1;
+        visibility: visible;
     }
 }

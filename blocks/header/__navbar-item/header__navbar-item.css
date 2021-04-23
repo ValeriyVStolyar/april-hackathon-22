@@ -8,8 +8,11 @@
 .header__navbar-item:hover{
     cursor: pointer;
     opacity: .6;
-    font-weight: 600;
+    font-weight: 700;
+    transition: 2s;
+
 }
+
 @media screen and (max-width: 1140px){
     .header__navbar-item {
         font-size: 21px;

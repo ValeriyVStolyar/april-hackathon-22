@@ -6,26 +6,9 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 1140px){
-    .about__header {
-        
-    }
-  }
-  
-@media screen and (max-width: 984px){
-    .about__header {
-
-    }
-  }
-  
 @media screen and (max-width: 640px){
     .about__header {
         text-align: center;
+        font-weight: 600;
     }
 }
-
-@media screen and (max-width: 375px){
-    .about__header {
-
-    }
-  }

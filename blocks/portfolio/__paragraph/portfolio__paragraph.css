@@ -1,6 +1,13 @@
 .portfolio__paragraph{
+    margin: 0;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    max-width: 350px;
+    width: 40%;
+}
+@media screen and (max-width: 768px){
+    .portfolio__paragraph {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }

@@ -2,4 +2,15 @@
     padding: 93px 0 77px;
     width: 100%;
     background-color: #ffffff;
+
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 1024px){
+    .about {
+        position: static;
+        top: 0;
+        z-index: 1;
+    }
 }

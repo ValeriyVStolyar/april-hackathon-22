@@ -19,7 +19,7 @@
     }
   }
   
-@media screen and (max-width: 640px){
+@media screen and (max-width: 768px){
     .header__wrapper {
         text-align: center;
         max-width: calc(100% - 45px*2);

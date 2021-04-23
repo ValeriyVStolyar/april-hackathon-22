@@ -3,3 +3,9 @@
     font-weight: 400;
     line-height: 25px;
 }
+@media screen and (max-width: 582px){
+    .skills__skill-description {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+}
