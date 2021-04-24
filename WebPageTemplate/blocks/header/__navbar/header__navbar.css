@@ -1,0 +1,14 @@
+.header__navbar{
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    right: 0;
+    align-self: flex-end;
+    position: absolute;
+}
+@media screen and (max-width: 768px){
+    .header__navbar {
+        visibility: hidden;
+    }
+}

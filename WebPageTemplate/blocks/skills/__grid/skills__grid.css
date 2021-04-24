@@ -1,0 +1,21 @@
+.skills__grid{
+    display: grid;
+    grid-template-columns: 31.5% 15% 40%;
+    grid-template-rows: fit-content(25px) 6fr;
+    column-gap: 78px;
+    row-gap: 65px;
+}
+
+@media screen and (max-width: 1060px){
+    .skills__grid {
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr fit-content(25px);
+    }
+  }
+
+@media screen and (max-width: 582px){
+    .skills__grid {
+        column-gap: 16px;
+        row-gap: 26px;
+    }
+}

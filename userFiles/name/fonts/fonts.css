@@ -1,0 +1,19 @@
+@font-face {
+  src:
+      url("LibreFranklin-Regular.ttf") format('truetype');
+  font-family: 'Libre-Franklin';
+  font-weight: 400;
+}
+@font-face {
+  src:
+    url("LibreFranklin-SemiBold.ttf") format('truetype');
+  font-family: 'Libre-Franklin';
+  font-weight: 600;
+}
+
+@font-face {
+  src:
+    url("LibreFranklin-Bold.ttf") format('truetype');
+  font-family: 'Libre-Franklin';
+  font-weight: 700;
+}

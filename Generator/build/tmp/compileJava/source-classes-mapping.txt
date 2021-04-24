@@ -1,0 +1,10 @@
+LendingGenerator/DAO/InputFields.java
+ LendingGenerator.DAO.InputFields
+LendingGenerator/Main.java
+ LendingGenerator.Main
+LendingGenerator/Services/StorageService.java
+ LendingGenerator.Services.StorageService
+LendingGenerator/MediaTypeUtils.java
+ LendingGenerator.MediaTypeUtils
+LendingGenerator/Controllers/FileSystemController.java
+ LendingGenerator.Controllers.FileSystemController

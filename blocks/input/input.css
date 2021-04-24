@@ -1,0 +1,11 @@
+.input{
+    color: #333333;
+    outline: 0;
+    border-width: 0 0 3px;
+    border-color: #333333;
+    background: transparent;
+}
+.white{
+    color: white;
+    border-color: #FFFFFF;
+}

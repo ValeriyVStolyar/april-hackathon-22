@@ -1,0 +1,16 @@
+.skills{
+    margin: 0 auto;
+    padding: 93px 0 145px;
+    width: 100%;
+    background-color: #FFFAF2;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 1024px){
+    .skills {
+        position: static;
+        top: 0;
+        z-index: 1;
+    }
+}

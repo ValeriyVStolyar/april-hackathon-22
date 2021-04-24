@@ -1,0 +1,10 @@
+.skills__skill-type{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+@media screen and (max-width: 582px){
+    .skills__skill-type {
+        font-size: 12px;
+    }
+}

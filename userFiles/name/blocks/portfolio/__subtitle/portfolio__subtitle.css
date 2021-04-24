@@ -1,0 +1,11 @@
+.portfolio__subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 48px;
+}
+@media screen and (max-width: 768px){
+    .portfolio__subtitle{
+        margin-bottom: 15px;
+    }
+}

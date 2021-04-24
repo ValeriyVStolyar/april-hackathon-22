@@ -1,0 +1,14 @@
+.about__header{
+    margin-bottom: 76px;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 640px){
+    .about__header {
+        text-align: center;
+        font-weight: 600;
+    }
+}

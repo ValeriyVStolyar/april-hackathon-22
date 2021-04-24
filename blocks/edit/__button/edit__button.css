@@ -1,0 +1,17 @@
+.edit__button{
+    padding: 18px 32px;
+    border: none;
+    background-color: #333333;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16pt;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+.edit__button:hover{
+    cursor: pointer;
+    background-color: lightslategrey;
+    transition: .5s;
+
+}

@@ -1,0 +1,11 @@
+.skills__grid_block {
+    height: 100%;
+}
+.skills__grid_block :not(:last-child){
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 582px){
+    .skills__grid_block :not(:last-child){
+        margin-bottom: 18px;
+    }
+}

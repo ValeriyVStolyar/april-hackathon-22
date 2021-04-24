@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Хакатон">
+  <meta name="author" content="Из пустыни team">
+  <link rel="stylesheet" href="./pages/editor.css">
+  <title>Lending Generator</title>
+</head>
+<body>
+<div class="page">
+  <header id="home" class="header">
+    <div class="header__wrapper">
+      <button type="button" class="header__burger"></button>
+      <nav class="header__navbar">
+        <a class="header__navbar-item">Home</a>
+        <a href="#about" class="header__navbar-item">About</a>
+        <a href="#skills" class="header__navbar-item">Skills</a>
+        <a href="#portfolio" class="header__navbar-item">Portfolio</a>
+        <a href="#contact" class="header__navbar-item">Contact</a>
+      </nav>
+      <h2 class="header__logo">Editor</h2>
+      <input name="header__title" class="input white header__title" value="qwe"/>
+      <input name="header__description" class="input white header__description" value="pavuk"/>
+      <input name="header__link" class="input white header__link" value="gitgub"/>
+    </div>
+  </header>
+
+  <main>
+    <section  id="about" class="about section content__section">
+      <div class="about__wrapper">
+        <h2 class="about__header">About</h2>
+        <textarea name="about__paragraph__first" class="about__paragraph__first text-area about__paragraph">lorem ipsum</textarea>
+        <br>
+        <textarea name="about__paragraph__second" class="about__paragraph__second text-area about__paragraph">lorem ipsum</textarea>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section content__section">
+      <div class="skills__wrapper">
+        <h2 class="skills__header">Skills</h2>
+        <div class="skills__grid">
+          <img alt="" class="skills__avatar" src="images/skills/skills-avatar.png">
+          <input name="stack" class="input skills__skill-type stack" value="Profile"/>
+          <input name="stack-description" class="input skills__skill-description stack-description" value="UI / UX Engineer, Front-end Developer"/>
+          <div class="skills__grid_block">
+            <input name="skill-one" class="input skills__skill-type skill-one" value="UX Research"/>
+            <input name="tools-one" class="input skills__skill-type tools-one" value="Tools"/>
+            <input name="skill-two" class="input skills__skill-type skill-two" value="UI Design"/>
+            <input name="tools-two" class="input skills__skill-type tools-two" value="Tools"/>
+            <input name="skill-three" class="input skills__skill-type skill-three" value="Front-end Dev"/>
+            <input name="tools-three" class="input skills__skill-type tools-three" value="Tools"/>
+          </div>
+          <div class="skills__grid_block">
+            <div class="skills__progress-bar">
+              <div class="skills__progress bar__one"></div>
+            </div>
+            <input name="skill-description-one" class="input skills__skill-description skill-description-one"value="Paper, Pen, Balsamiq"/>
+            <div class="skills__progress-bar">
+              <div class="skills__progress bar__two"></div>
+            </div>
+            <input name="skill-description-two" class="input skills__skill-description skill-description-two"value="Adobe PS, AI, XD, Figma, InVision"/>
+            <div class="skills__progress-bar">
+              <div class="skills__progress bar__three"></div>
+            </div>
+            <input name="skill-description-three" class="input skills__skill-description skill-description-three"value="HTML, CSS, JS, Bootstrap, React"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section content__section">
+      <div class="portfolio__wrapper">
+        <h2 class="portfolio__header">Portfolio</h2>
+        <input name="subtitle-one" class=" input portfolio__subtitle subtitle-one" value="UX Research"/>
+        <br>
+        <textarea name="paragraph-one" class="text-area portfolio__paragraph paragraph-one">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio
+          cursus id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</textarea>
+        <div class="portfolio__grid">
+          <img alt="" class="portfolio__grid-item" src="images/portfolio/gondolas.png">
+          <img alt="" class="portfolio__grid-item" src="images/portfolio/bridge.png">
+          <img alt="" class="portfolio__grid-item" src="images/portfolio/coast.png">
+          <img alt="" class="portfolio__grid-item" src="images/portfolio/houses.png">
+        </div>
+        <div class="portfolio__buttons">
+          <button class="portfolio__button_left portfolio__button" type="button"></button>
+          <button class="portfolio__button_right portfolio__button" type="button"></button>
+        </div>
+      </div>
+    </section>
+    <section class="edit">
+      <div class="edit__wrapper">
+        <h2 class="edit__header">Are you ready?</h2>
+        <button type="button" id="edit__button" class="edit__button">Download best lending ever</button>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer">
+    <div class="footer__wrapper">
+      <h2 class="footer__header">Get in Touch</h2>
+      <div class="footer__flexbox">
+        <nav class="footer__navbar">
+          <input name="Dribbble" class="Dribbble input footer__navbar-item" value="Dribbble"/>
+          <input name="Behance" class="Behance input footer__navbar-item" value="Behance"/>
+          <input name="CodePen" class="CodePen input footer__navbar-item" value="CodePen"/>
+          <input name="GitHub" class="GitHub input footer__navbar-item" value="GitHub"/>
+          <input name="Medium" class="Medium input footer__navbar-item" value="Medium"/>
+        </nav>
+        <nav class="footer__navbar">
+          <input name="LinkedIn" class="LinkedIn input footer__navbar-item" value="LinkedIn"/>
+          <input name="Facebook" class="Facebook input footer__navbar-item" value="Facebook"/>
+          <input name="Instagram" class="Instagram input footer__navbar-item" value="Instagram"/>
+          <input name="Twitter" class="Twitter input footer__navbar-item" value="Twitter"/>
+        </nav>
+        <nav class="footer__navbar">
+          <input name="mail" class="mail input footer__navbar-item" value="seyrig@mailme.com"/>
+          <input name="tel" class="tel input footer__navbar-item" value="+ 55 6645 665544"/>
+        </nav>
+      </div>
+      <a href="#home"><button type="button" class="footer__button"></button></a>
+    </div>
+  </footer>
+
+</div>
+</body>
+<script type="module" src="./pages/editor.js"></script>
+</html>
